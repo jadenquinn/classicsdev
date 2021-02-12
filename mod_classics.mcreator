@@ -1,10 +1,43 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Classicsctab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "classicsctab"
+    },
+    {
+      "name": "Ptbackinarmsdisc",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ptbackinarmsdisc"
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "pcbackinarmsaudio",
+      "files": [
+        "backinbabysarms"
+      ],
+      "category": "record",
+      "subtitle": "A 1962 Song Plays"
+    }
+  ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.mod_classics.ptbackinarmsdisc": "Music Disc",
+      "itemGroup.tabclassicsctab": "The Classics",
+      "item.mod_classics.ptbackinarmsdisc.desc": "Patsy Cline - Back In Baby\u0027s Arms - 1962",
+      "subtitles.pcbackinarmsaudio": "A 1962 Song Plays"
+    }
   },
   "workspaceSettings": {
     "modid": "mod_classics",

@@ -45,6 +45,8 @@ public class ModClassicsModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ModClassicsModElements() {
+		sounds.put(new ResourceLocation("mod_classics", "pcbackinarmsaudio"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("mod_classics", "pcbackinarmsaudio")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("mod_classics").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

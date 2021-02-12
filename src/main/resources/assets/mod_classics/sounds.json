@@ -1,1 +1,12 @@
-{}
+{
+  "pcbackinarmsaudio": {
+    "category": "record",
+    "subtitle": "subtitles.pcbackinarmsaudio",
+    "sounds": [
+      {
+        "name": "mod_classics:backinbabysarms",
+        "stream": true
+      }
+    ]
+  }
+}

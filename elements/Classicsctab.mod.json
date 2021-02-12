@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "The Classics",
+    "icon": {
+      "value": "Items.MUSIC_DISC_PIGSTEP"
+    },
+    "showSearch": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "pcbabyarmsdisc",
+    "name": "Music Disc",
+    "description": "Patsy Cline - Back In Baby's Arms - 1962",
+    "creativeTab": {
+      "value": "CUSTOM:Classicsctab"
+    },
+    "music": {
+      "value": "CUSTOM:pcbackinarmsaudio"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
